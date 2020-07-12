@@ -1,0 +1,7 @@
+{
+	"name": "LV Machines",
+	"description": "Docs for all lv machines",
+	"icon": "ic2:blockmachinelv:3",
+	"parent": "ic2c_doc_book:machines",
+	"sortnum":0
+}

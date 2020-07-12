@@ -1,0 +1,26 @@
+{
+  "name": "Macerator",
+  "icon": "ic2:blockmachinelv:3",
+  "category": "ic2c_doc_book:machines/lv_machines",
+
+  "read_by_default":false,
+
+  "pages": [
+    {
+      "type": "text",
+      "text": "The Macerator is probably the first machine to make IC2 famous. Its purpose is simple: take solid objects, and crush them into dust. What made the machine famous is that it helped establish the modded Minecraft standard of Ore Doubling (as each Ore block processed by a Macerator produces 2 Dusts, each of which can be smelted into an Ingot). The Macerator can also be used to increase the yields"
+    },
+    {
+      "type": "text",
+      "text": "of other items (Blaze Rods grind into 5 Blaze Powder, Bones grind into 4 Bone Meal), and to make some IC2-specific materials (Poisonous Potatoes and Spider Eyes grind into Grin Powder, used in making Weed-Ex).$(br2)The Macerator is not an especially fast machine (requiring 20 seconds or 400 Ticks to smash a single item) but consumes only 2EU/t, making it easy to sustain in large numbers."
+    },
+    {
+      "type": "text",
+      "text": "The Macerator GUI contains 7 slots and 2 indicators. The upper-left and center-right slots are input and output slots. The lower-left slot can hold an RE-Battery to power the machine. The lightning bolt symbol is a charge indicator, showing how much EU the Macerator contains. The right four slots are Upgrade slots. The Macerator can accept Machine Upgrades and Inventory Upgrades."
+    },
+    {
+      "type": "text",
+      "text": "The Macerator has a more Advanced MV version, the Rotary Macerator.$(br2)$(bold)Power Data$()$(br)Tier: LV$(br)Max Input: 32 EU/t$(br)Energy Storage: 800 EU$(br)Energy Consumption: 2 EU/t$(br)Work Time: 300 Ticks/operation"
+    }
+  ]
+}

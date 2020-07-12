@@ -12,9 +12,7 @@
 	"link_hover_color":"8800EE",
 	"progress_bar_color":"FFFF55",
 	"progress_bar_background":"DDDDDD",
-	"show_progress":true,
+	"show_progress":false,
 	"creative_tab":"ic2",
-	"pause_game":true,
-	"show_toasts":true,
-	"use_blocky_font":false
+	"pause_game":true
 }
