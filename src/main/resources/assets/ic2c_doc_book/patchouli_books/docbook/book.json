@@ -1,5 +1,5 @@
 {
-	"name": "item.ic2c_doc_book.book",
+	"name": "item.ic2c_doc_book.name",
 	"landing_text": "I insert text here and assign all of the varibles to their default values for now",
 	"version": 0,
 	"subtitle":"Set version to equal 0 to view",
