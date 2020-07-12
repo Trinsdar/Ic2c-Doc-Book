@@ -1,0 +1,46 @@
+{
+  "name": "Base Concepts",
+  "icon": "ic2:itemmisc:450",
+  "category": "ic2c_doc_book:base_concepts+getting_started",
+
+  "read_by_default":false,
+
+  "pages": [
+    {
+      "type": "text",
+      "text": "Like many mods, IC2 Classic has a few wide-reaching ideas.$(br2)$(bold)Energy Units (EU)$()$(br)IC2C is a tech-based mod, and like many tech-based mods it uses an energy system. This system is known as EU. EU is transmitted from Generators, through Cables, to Storage blocks and Machines, in packets. These packets have a given size (EU/p; Voltage), and each machine has a maximum"
+    },
+    {
+      "type": "text",
+      "text": "size of packet it can absorb which determines its tier.$(br)$(li)LV-Tier: 32EU/p$(li)MV-Tier: 128EU/p$(li)HV-Tier: 512EU/p$(li)EV-Tier: 2048EU/p$(br)Generators and storage blocks output 1 packet per tick. Wires and machines can handle any number of packets per tick, so long as none of the packets exceed their size limit. Transformers can either absorb 4 packets of their lower"
+    },
+    {
+      "type": "text",
+      "text": "voltage to output 1 packet of their higher voltage, or absorb 1 packet of their higher voltage to output 4 packets of their lower voltage. Long lines of Cables will eventually cause small amounts of EU to be lost. Insulated Cables lose energy more slowly than equivalent uninsulated Cables, however higher voltage Cables also lose energy faster than lower voltage Cables."
+    },
+    {
+      "type": "text",
+      "text": "Cables do not store packets, they simply move them. Cables also do not split individual packets moving through them; each single packet must travel from one source to one target. If a Cable attempts to transmit a larger packet than it allows, the entire cable line the packet followed will explode weakly. If a machine receives a larger packet than it allows, it will explode violently."
+    },
+    {
+      "type": "text",
+      "text": "EU traveling through a cable or machine can be measured with an EU-Reader. The measurement is taken as a 'total EU traversing per tick'; all packets are added together. If the mod The One Probe is installed, it allows the user to see how much EU is stored inside a machine, but only if the player has an EU-Reader in their hotbar or attached to their helmet."
+    },
+    {
+      "type": "text",
+      "text": "EU can also be stored in RE-Batteries and the like, and can be used to power certain tools and armor pieces. These tools and armors are unbreakable, but are useless without energy.$(br2)$(bold)Stack Crafting$()$(br)A new feature in IC2 Classic is a modification to the normal Minecraft Shaped Crafting system: IC2C Shaped or Shapeless Crafting recipes can consume more"
+    },
+    {
+      "type": "text",
+      "text": "than 1 item from each input slot. Fortunately, Just Enough Items (JEI) knows how to read these non-standard stack size inputs, and can correctly display them to the user.$(br)$(bold)The Wrench$()$(br)As with many other tech mods, IC2C contains a Wrench. This one is made of Bronze. It has two uses: 1, rotating machine blocks, and 2, safely harvesting machine blocks. When broken with"
+    },
+    {
+      "type": "text",
+      "text": "a Pickaxe, all IC2C machines drop as some form of Machine Block. When right-clicked with a Wrench on their front face, they have a very good chance (but not a perfect chance) to drop as themselves (and not a Machine Block). The Electric Wrench improves that chance, and has an automatic 'lossless' mode that consumes a large amount of EU but forces a machine to not be lost if it otherwise would be."
+    },
+    {
+      "type": "text",
+      "text": "The Precision Wrench consumes more EU than the Electric Wrench, but is lossless for any machine with a 50% or better drop rate. At present, all IC2C machines have at least a 70% drop rate, so the Precision Wrench is, for the time being, effectively lossless."
+    }
+  ]
+}
